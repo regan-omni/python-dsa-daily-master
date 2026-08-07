@@ -1,0 +1,6 @@
+{
+  "name": "Python DSA Daily Master",
+  "description": "Daily Python Data Structures & Algorithms learning platform with daily concepts, practice problems, competitive programming tips, progress tracking, and cross-platform PWA setup.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,17 @@
+{
+  "short_name": "PyAlgoDaily",
+  "name": "PyAlgo Daily - Python DSA Master",
+  "description": "Daily Python Data Structures & Algorithms learning platform",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' fill='%2310b981'><path d='M228.8 9.6c-13.4 3-24.9 11.8-30.8 23.5l-32 64c-6.8 13.6-6.8 29.4 0 43l32 64c7.6 15.2 22.8 24.9 39.8 24.9h64.4c17 0 32.2-9.7 39.8-24.9l32-64c6.8-13.6 6.8-29.4 0-43l-32-64C336.1 11.5 320.9 1.8 303.9 1.8h-64.4c-3.6 0-7.2.3-10.7 7.8z'/></svg>",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#090d16",
+  "theme_color": "#0f172a",
+  "display": "standalone",
+  "orientation": "portrait-primary"
+}
