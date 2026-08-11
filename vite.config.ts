@@ -4,7 +4,15 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+// export default defineConfig(({ command }) => {
   return {
+    // The site is served from a subfolder on GitHub Pages, not the domain root.
+    base: '/python-dsa-daily-master/',
+
+    // Only use the subfolder path when building for GitHub Pages.
+    // Local dev (`command === 'serve'`) stays at the root.
+    // base: command === 'build' ? '/python-dsa-daily-master/' : '/',
+
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
